@@ -107,13 +107,15 @@ nav a {
 	text-decoration: none;
 	line-height: 180%;
 }
+
+/* Small devices (portrait tablets and large phones, 768px and lower) */
 @media only screen and (max-width: 768px){
 	nav {
-		height: 20vh;
+		height: 6vh;
 	}
 
 	nav a {
-		font-size: 2em;
+		font-size: 1.4em;
 	}
 
 	#first {
@@ -121,6 +123,7 @@ nav a {
 	}
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	nav {
 		height: 5vh;
