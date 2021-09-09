@@ -108,7 +108,7 @@ nav a {
 	line-height: 180%;
 }
 
-@media screen and (min-width: 50px, max-width: 767px){
+@media screen and (max-width: 768px){
 	nav {
 		height: 20vh;
 	}
