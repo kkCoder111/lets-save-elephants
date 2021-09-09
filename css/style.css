@@ -116,6 +116,10 @@ nav a {
 	nav a {
 		font-size: 2em;
 	}
+
+	#first {
+		margin-top: 20px;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -134,4 +138,12 @@ nav a {
 		margin-right: 1%;
 		height: 10%;
 	}*/
+}
+
+#skip {
+	display: none;
+}
+
+#skip:focus {
+	display: inline;
 }
