@@ -97,22 +97,12 @@ nav a {
 	background-color: rgb(100,100,100);
 }
 
-h1 {
-	font-size: 200%;
-}
-
 nav a {
 	background-color: rgb(0,0,0);
 	color: rgb(255,255,255);
 	text-decoration: none;
 	line-height: 180%;
 }
-
-h1 {
-	font-size: 200%;
-}
-
-
 /** Mobile Devices */
  @media screen and (max-width: 480px) {
  	nav, #nav-placeholder {
@@ -123,6 +113,10 @@ h1 {
 	}
 	#content-top {
 		margin-top: 20vh;
+	}
+
+	h1 {
+		font-size: 75px;
 	}
 }
 
@@ -138,6 +132,9 @@ h1 {
 	#content-top {
 		margin-top: 20vh;
 	}
+	h1 {
+		font-size: 40px;
+	}
 }
 
 /* Tablets Ipads portrait mode */
@@ -151,6 +148,9 @@ h1 {
 	#content-top {
 		margin-top: 5vh;
 	}
+	h1 {
+		font-size: 35px;
+	}
 }
 
 /*  Laptops, Desktops and Large Screens */
@@ -163,6 +163,9 @@ h1 {
 	}
 	#content-top {
 		margin-top: 5vh;
+	}
+	h1 {
+		font-size: 35px;
 	}
 
 }
