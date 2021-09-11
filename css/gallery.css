@@ -1,40 +1,45 @@
-.column {
+.item {
 	display: inline-block;
 	float: left;
 	margin-left: 1%;
 	margin-right: 1%;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	background-color: pink;
 }
 
 
 /** Mobile Devices */
- @media (max-width: 480px) {
-	.column {
+ @media screen and (max-width: 480px) {
+	.item {
 		width: 98%;
+		background-color: black;
 
 	}
 }
 
 /*Low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
-	.column {
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	.item {
 		width: 75%;
+		background-color: red;
 
 	}
 }
 
 /* Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
-	.column {
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.item {
 		width: 40%;
+		background-color: green;
 	}
 }
 
 /*  Laptops, Desktops and Large Screens */
-@media (min-width: 1025px){
-	.column {
+@media screen and (min-width: 1025px){
+	.item {
 		width: 30%;
+		background-color: blue;
 	}
 
 }
