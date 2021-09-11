@@ -121,7 +121,7 @@ h1 {
 	nav a {
 		font-size:1.2em;
 	}
-	#gallery-header {
+	#content-top {
 		margin-top: 20vh;
 	}
 }
@@ -135,7 +135,7 @@ h1 {
 		font-size:1.2em;
 	}
 
-	#gallery-header {
+	#content-top {
 		margin-top: 20vh;
 	}
 }
@@ -148,7 +148,7 @@ h1 {
 	nav a {
 		font-size:1.2em;
 	}
-	#gallery-header {
+	#content-top {
 		margin-top: 5vh;
 	}
 }
@@ -161,7 +161,7 @@ h1 {
 	nav a {
 		font-size:1.2em;
 	}
-	#gallery-header {
+	#content-top {
 		margin-top: 5vh;
 	}
 
