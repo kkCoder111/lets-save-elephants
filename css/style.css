@@ -103,6 +103,11 @@ nav a {
 	text-decoration: none;
 	line-height: 180%;
 }
+
+nav p {
+	display: inline;
+}
+
 /** Mobile Devices */
  @media screen and (max-width: 480px) {
  	nav, #nav-placeholder {
