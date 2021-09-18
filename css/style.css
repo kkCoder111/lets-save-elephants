@@ -111,7 +111,7 @@ nav p {
 /** Mobile Devices */
  @media screen and (max-width: 480px) {
  	nav, #nav-placeholder {
-		height: 100px;
+		height: 300px;
 	}
 	nav a {
 		font-size: 1.2em;
@@ -128,7 +128,7 @@ nav p {
 /*Low resolution  Tablets, Ipads */
 @media screen and (min-width: 481px) and (max-width: 767px) {
 	nav, #nav-placeholder {
-		height: 100px;
+		height: 300px;
 	}
 	nav a {
 		font-size: 1.2em;
