@@ -111,10 +111,10 @@ nav p {
 /** Mobile Devices */
  @media screen and (max-width: 480px) {
  	nav, #nav-placeholder {
-		height: 20vh;
+		height: 100px;
 	}
 	nav a {
-		font-size:50px;
+		font-size: 1.2em;
 	}
 	#content-top {
 		margin-top: 20vh;
@@ -128,10 +128,10 @@ nav p {
 /*Low resolution  Tablets, Ipads */
 @media screen and (min-width: 481px) and (max-width: 767px) {
 	nav, #nav-placeholder {
-		height: 20vh;
+		height: 100px;
 	}
 	nav a {
-		font-size:50px;
+		font-size: 1.2em;
 	}
 
 	#content-top {
@@ -145,10 +145,10 @@ nav p {
 /* Tablets Ipads portrait mode */
 @media screen and (min-width: 768px) and (max-width: 1024px){
 	nav, #nav-placeholder {
-		height: 5vh;
+		height: 30px;
 	}
 	nav a {
-		font-size:20px;
+		font-size: 1.2em;
 	}
 	#content-top {
 		margin-top: 5vh;
@@ -161,10 +161,10 @@ nav p {
 /*  Laptops, Desktops and Large Screens */
 @media screen and (min-width: 1025px){
 	nav, #nav-placeholder {
-		height: 5vh;
+		height: 30px;
 	}
 	nav a {
-		font-size:20px;
+		font-size:1.2em;
 	}
 	#content-top {
 		margin-top: 5vh;
