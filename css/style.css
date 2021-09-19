@@ -111,7 +111,7 @@ nav p {
 /** Mobile Devices */
  @media screen and (max-width: 480px) {
  	nav, #nav-placeholder {
-		height: 300px;
+		height: 1000px;
 	}
 	nav a {
 		font-size: 1.2em;
