@@ -123,6 +123,10 @@ nav p {
 	h1 {
 		font-size: 75px;
 	}
+
+	p {
+		color: red;
+	}
 }
 
 /*Low resolution  Tablets, Ipads */
@@ -140,6 +144,10 @@ nav p {
 	h1 {
 		font-size: 40px;
 	}
+
+	p {
+		color: green;
+	}
 }
 
 /* Tablets Ipads portrait mode */
@@ -156,6 +164,10 @@ nav p {
 	h1 {
 		font-size: 35px;
 	}
+
+	p {
+		color: blue;
+	}
 }
 
 /*  Laptops, Desktops and Large Screens */
@@ -171,6 +183,10 @@ nav p {
 	}
 	h1 {
 		font-size: 35px;
+	}
+
+	p {
+		color: pink;
 	}
 
 }
