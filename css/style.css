@@ -111,7 +111,7 @@ nav p {
 /** Mobile Devices */
  @media screen and (max-width: 480px) {
  	nav, #nav-placeholder {
-		height: 50px;
+		height: 75px;
 	}
 	nav a {
 		font-size: 1.2em;
@@ -132,7 +132,7 @@ nav p {
 /*Low resolution  Tablets, Ipads */
 @media screen and (min-width: 481px) and (max-width: 767px) {
 	nav, #nav-placeholder {
-		height: 50px;
+		height: 75px;
 	}
 	nav a {
 		font-size: 1.2em;
@@ -153,7 +153,7 @@ nav p {
 /* Tablets Ipads portrait mode */
 @media screen and (min-width: 768px) and (max-width: 1024px){
 	nav, #nav-placeholder {
-		height: 50px;
+		height: 75px;
 	}
 	nav a {
 		font-size: 1.2em;
@@ -162,7 +162,7 @@ nav p {
 		margin-top: 5vh;
 	}
 	h1 {
-		font-size: 75px;
+		font-size: 35px;
 	}
 
 	p {
