@@ -266,3 +266,9 @@ button:hover {
 #skip:focus {
 	display: inline;
 }
+
+i {
+	float: right;
+	font-size: 20px;
+	line-height: 155% !important;
+}

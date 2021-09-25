@@ -53,4 +53,30 @@ function checkCookie(name, valueIfNotFound, daysIfNotFound) {
 	}
 }
 
-console.log(facts);
+
+function switchTheme(){
+	let theme = getCookie("LSEtheme");
+	console.log(theme);
+	if (theme == "light") {
+		setCookie("LSEtheme", "dark", 30);
+		document.style.backgroundColor = "rgb(0,0,0)"
+		document.style.color = "rgb(255,255,255)"
+		document.getElementById("nav").style.backgroundColor = "rgb(50,50,50)";
+		document.getElementsByClassName("nav").style.backgroundColor = "rgb(50,50,50)";
+		document.getElementsByClassName("nav-link").style.color = "rgb(255,255,255)";
+		document.getElementById("theme-switch").style.color = "rgb(255,255,255)";
+	}
+	else if (theme == "dark") {
+		setCookie("LSEtheme", "light", 30);
+		document.style.backgroundColor = "rgb(255,255,255)"
+		document.style.color = "rgb(0,0,0)"
+		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
+		document.getElementsByClassName("nav").style.backgroundColor = "rgb(205,205,205)";
+		document.getElementsByClassName("nav-link").style.color = "rgb(255,255,255)";
+		document.getElementById("theme-switch").style.color = "rgb(0,0,0)";
+	}
+
+	else {
+		console.error("JS Error: The theme was not able to be applied.");
+	}
+}

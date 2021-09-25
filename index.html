@@ -3,19 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script src="Bootstrap/js/bootstrap.js"></script>
 	<script src="js/scripts.js"></script>
 	<title>Let's Save Elephants!</title>
 </head>
-<body onload="checkCookie('LSEtheme', 'dark', 30);">
+<body onload="checkCookie('LSEtheme', 'light', 30);">
 	<header>
-		<nav>
+		<nav id="nav">
 			<p><a href="#first" id="skip">Skip to main content</a></p>
-			<p><a href="index.html" class="active">Home</a></p>
-			<p><a href="howtohelp.html">How to help</a></p>
-			<p><a href="gallery.html">Gallery</a></p>
+			<p><a href="index.html" class="active nav-link">Home</a></p>
+			<p><a href="howtohelp.html" class="nav-link">How to help</a></p>
+			<p><a href="gallery.html" class="nav-link">Gallery</a></p>
+			<i class="fas fa-adjust" onclick="" id="theme-switch"></i>
 		</nav>
 		<div id="nav-placeholder"></div>
 	</header>
