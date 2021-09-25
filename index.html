@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<script src="Bootstrap/js/bootstrap.js"></script>
+	<script src="js/scripts.js"></script>
 	<title>Let's Save Elephants!</title>
 </head>
-<body>
+<body onload="checkCookie('LSEtheme', 'dark', 30);">
 	<header>
 		<nav>
 			<p><a href="#first" id="skip">Skip to main content</a></p>
@@ -50,11 +53,14 @@
 			<p>African bush elephants and Asian elephants are listed as endangered, whereas African forest elephants are listed as critically endangered.</p>
 		</section>
 		<br>
-		<a href="#first">Back to top</a>
+		<button onclick="random();">Tell me a fact about elephants</button>
+		<p id="fact"></p>
+		<a href="nav">Back to top</a>
 	</main>
 	<footer>
-		<h1>Sources:</h1>
+		<h2>Sources:</h2>
 		<a href="https://en.wikipedia.org/wiki/Elephant" target="_blank">Wikipedia</a>
+		<a href="https://www.wwf.org.uk/learn/fascinating-facts/elephants">WWF (facts)</a>
 	</footer>
 </body>
 </html>

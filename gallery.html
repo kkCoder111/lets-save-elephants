@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/gallery.css">
 	<link rel="stylesheet" href="lightbox2/src/css/lightbox.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="lightbox2/src/js/lightbox.js"></script>
+	<script src="Bootstrap/js/bootstrap.js"></script>
 	<title>Let's Save Elephants!</title>
 </head>
 <body>
@@ -22,39 +23,55 @@
 	<main>
 		<section id="content-top">
 			<h1 id="first">Gallery</h1>
-			<p>Click on an image to open the image viewer.</p>
+			<p>Here is a gallery with images of elephants.</p>
 		</section>
-		<div id="gallery">
-			<div class="column">
-				<div class="item">
-					<a href="https://live.staticflickr.com/3327/3338646285_3991486924_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Baby Elephant Chester Zoo&rdquo; by Paolo Camera is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/3327/3338646285_3991486924_b.jpg" alt="Elephant looking down at the Chester Zoo"></a>
-				</div>
-				<div class="item">
-					<a href="https://live.staticflickr.com/2811/11985592964_486f64a677_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephant&rdquo; by snarglebarf is licensed with CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/"><img src="https://live.staticflickr.com/2811/11985592964_486f64a677_b.jpg" alt="Herd of elephants looking down"></a>
-				</div>
-				<div class="item">
-					<a href="https://live.staticflickr.com/3548/3365753079_20de276357_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephant Nature Park&rdquo; by Christian Haugen is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/3548/3365753079_20de276357_b.jpg" alt="Happy elephant in a nature park"></a>
-				</div>
-				<div class="item">
-					<a href="https://live.staticflickr.com/2461/3960614467_7f2281d34d_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephant&rdquo; by svenstorm is licensed with CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/"><img src="https://live.staticflickr.com/2461/3960614467_7f2281d34d_b.jpg" alt="Elephant holding object with trunk"></a>
-				</div>
-			</div>
-			<br>
-			<div id="column">
-				<div class="item">
-					<a href="https://live.staticflickr.com/1834/43270302254_8b0a3fcd8d_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephants at watering place&rdquo; by www.holgersbilderwelt.de is licensed with CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/"><img src="https://live.staticflickr.com/1834/43270302254_8b0a3fcd8d_b.jpg" alt="Elephants drinking water"></a>
-				</div>
-				<div class="item">
-					<a href="https://live.staticflickr.com/3097/3101178552_1784582a71_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephant&rdquo; by Averain is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/3097/3101178552_1784582a71_b.jpg" alt="Close-up elephant"></a>
-				</div>
-				<div class="item">
-					<a href="https://live.staticflickr.com/7462/16094574370_1bed1477cb_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephants in Amboseli National Park, Kenya, East Africa&rdquo; by diana_robinson is licensed with CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/"><img src="https://live.staticflickr.com/7462/16094574370_1bed1477cb_b.jpg" alt="Elephants in Amboseli National Park, Kenya"></a>
-				</div>
-				<div class="item">
-					<a href="https://live.staticflickr.com/15/19407987_19b7a6d083_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Muddy Elephant&rdquo; by justin is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/15/19407987_19b7a6d083_b.jpg" alt="Wild elephant"></a>
-				</div>
-			</div>
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Image 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Image 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Image 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-current="true" aria-label="Image 4"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Image 5"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Image 6"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Image 7"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Image 8"></button>
+		  </div>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		    	<a href="https://live.staticflickr.com/3327/3338646285_3991486924_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Baby Elephant Chester Zoo&rdquo; by Paolo Camera is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/3327/3338646285_3991486924_b.jpg" class="d-block w-100" alt="Elephant looking down at the Chester Zoo"></a>
+		    </div>
+		    <div class="carousel-item">
+		      <a href="https://live.staticflickr.com/2811/11985592964_486f64a677_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephant&rdquo; by snarglebarf is licensed with CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/"><img src="https://live.staticflickr.com/2811/11985592964_486f64a677_b.jpg" alt="Herd of elephants looking down" class="d-block w-100"></a>
+		    </div>
+		    <div class="carousel-item">
+		      <a href="https://live.staticflickr.com/3548/3365753079_20de276357_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephant Nature Park&rdquo; by Christian Haugen is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/3548/3365753079_20de276357_b.jpg" alt="Happy elephant in a nature park" class="d-block w-100"></a>
+		    </div>
+		    <div class="carousel-item">
+		    	<a href="https://live.staticflickr.com/2461/3960614467_7f2281d34d_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephant&rdquo; by svenstorm is licensed with CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/"><img src="https://live.staticflickr.com/2461/3960614467_7f2281d34d_b.jpg" alt="Elephant holding object with trunk" class="d-block w-100"></a>
+		    </div>
+		    <div class="carousel-item">
+		    	<a href="https://live.staticflickr.com/1834/43270302254_8b0a3fcd8d_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephants at watering place&rdquo; by www.holgersbilderwelt.de is licensed with CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/"><img src="https://live.staticflickr.com/1834/43270302254_8b0a3fcd8d_b.jpg" alt="Elephants drinking water" class="d-block w-100"></a>
+		    </div>
+		    <div class="carousel-item">
+		    	<a href="https://live.staticflickr.com/3097/3101178552_1784582a71_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephant&rdquo; by Averain is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/3097/3101178552_1784582a71_b.jpg" alt="Close-up elephant" class="d-block w-100"></a>
+		    </div>
+		    <div class="carousel-item">
+		    	<a href="https://live.staticflickr.com/7462/16094574370_1bed1477cb_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Elephants in Amboseli National Park, Kenya, East Africa&rdquo; by diana_robinson is licensed with CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/"><img src="https://live.staticflickr.com/7462/16094574370_1bed1477cb_b.jpg" alt="Elephants in Amboseli National Park, Kenya" class="d-block w-100"></a>
+		    </div>
+		    <div class="carousel-item">
+		    	<a href="https://live.staticflickr.com/15/19407987_19b7a6d083_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Muddy Elephant&rdquo; by justin is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/15/19407987_19b7a6d083_b.jpg" alt="Wild elephant" class="d-block w-100"></a>
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
 		</div>
+		<p id="gallery-last">Click on an image to open the image viewer.</p>
 	</main>
 	<script src="js/scripts.js"></script>
 </body>
