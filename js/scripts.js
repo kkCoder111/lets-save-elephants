@@ -53,16 +53,43 @@ function checkCookie(name, valueIfNotFound, daysIfNotFound) {
 	}
 }
 
+function applyThemeOnLoad(){
+	let theme = getCookie("LSEtheme");
+	console.log("OnLoad Theme: " + theme)
+	if (theme == "light") {
+		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(0,0,0)";
+		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
+		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
+		document.getElementsByClassName("root-nav-link").style.backgroundColor = "rgb(205,205,205)";
+		document.getElementsByClassName("root-nav-link").style.color = "rgb(255,255,255)";
+		document.getElementById("theme-switch").style.color = "rgb(0,0,0)";
+	}
+
+	else if (theme == "dark") {
+		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(255,255,255)";
+		document.getElementsByTagName("body")[0].style.color = "rgb(0,0,0)";
+		document.getElementById("nav").style.backgroundColor = "rgb(50,50,50)";
+		document.getElementsByClassName("root-nav-link").style.backgroundColor = "rgb(50,50,50)";
+		document.getElementsByClassName("root-nav-link").style.color = "rgb(255,255,255)";
+		document.getElementById("theme-switch").style.color = "rgb(255,255,255)";
+	}
+
+	else {
+		console.error("LSEThemeError: The OnLoad theme was not able to be applied.")
+	}
+}
+
 
 function switchTheme(){
 	let theme = getCookie("LSEtheme");
-	console.log(theme);
+	console.log("Switched to " + theme + " theme.");
 	if (theme == "light") {
 		setCookie("LSEtheme", "dark", 30);
 		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(255,255,255)";
 		document.getElementsByTagName("body")[0].style.color = "rgb(0,0,0)";
 		document.getElementById("nav").style.backgroundColor = "rgb(50,50,50)";
-		document.getElementsByClassName("nav-link").style.color = "rgb(255,255,255)";
+		document.getElementsByClassName("root-nav-link").style.backgroundColor = "rgb(50,50,50)";
+		document.getElementsByClassName("root-nav-link").style.color = "rgb(255,255,255)";
 		document.getElementById("theme-switch").style.color = "rgb(255,255,255)";
 	}
 	else if (theme == "dark") {
@@ -70,11 +97,12 @@ function switchTheme(){
 		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(0,0,0)";
 		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
 		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
-		document.getElementsByClassName("nav-link").style.color = "rgb(255,255,255)";
+		document.getElementsByClassName("root-nav-link").style.backgroundColor = "rgb(205,205,205)";
+		document.getElementsByClassName("root-nav-link").style.color = "rgb(255,255,255)";
 		document.getElementById("theme-switch").style.color = "rgb(0,0,0)";
 	}
 
 	else {
-		console.error("JS Error: The theme was not able to be applied.");
+		console.error("LSEThemeError: The theme was not able to be applied.");
 	}
 }
