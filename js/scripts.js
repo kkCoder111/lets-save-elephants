@@ -110,7 +110,7 @@ function switchTheme(){
 		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
 		for (let i = 0; i < len; i++){
 			document.getElementsByClassName("root-nav-link")[i].style.backgroundColor = "rgb(205,205,205)";
-			document.getElementsByClassName("root-nav-link")[i].style.color = "rgb(255,255,255)";
+			document.getElementsByClassName("root-nav-link")[i].style.color = "rgb(0,0,0)";
 		}
 		document.getElementById("theme-switch").style.color = "rgb(0,0,0)";
 	}
