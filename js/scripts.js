@@ -57,6 +57,7 @@ function applyThemeOnLoad(){
 	let len = 0;
 	let theme = getCookie("LSEtheme");
 	console.log("OnLoad Theme: " + theme)
+	len = document.getElementsByClassName("root-nav-link").length;
 	if (theme == "light") {
 		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(0,0,0)";
 		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
@@ -89,6 +90,7 @@ function applyThemeOnLoad(){
 
 function switchTheme(){
 	let theme = getCookie("LSEtheme");
+	let len = 0;
 	console.log("Switched to " + theme + " theme.");
 	if (theme == "light") {
 		setCookie("LSEtheme", "dark", 30);
