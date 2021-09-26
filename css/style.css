@@ -130,7 +130,7 @@ button:hover {
 	}
 	nav a, i {
 		font-size: 30px;
-		line-height: 250%;
+		line-height: 250% !important;
 	}
 	#content-top {
 		margin-top: 20vh;
@@ -147,6 +147,9 @@ button:hover {
 	p, li, button  {
 		font-size: 40px;
 	}
+	a {
+		font-size: 30px;
+	}
 }
 
 /*Low resolution  Tablets, Ipads */
@@ -156,7 +159,7 @@ button:hover {
 	}
 	nav a, i {
 		font-size: 30px;
-		line-height: 250%;
+		line-height: 250% !important;
 	}
 
 	#content-top {
@@ -173,6 +176,9 @@ button:hover {
 	p, li, button{
 		font-size: 40px;
 	}
+	a {
+		font-size: 30px;
+	}
 }
 
 /* Tablets Ipads portrait mode */
@@ -181,8 +187,8 @@ button:hover {
 		height: 75px;
 	}
 	nav a, i {
-		font-size: 40px;
-		line-height: 250%;
+		font-size: 30px;
+		line-height: 250% !important;
 	}
 	#content-top {
 		margin-top: 5vh;
@@ -198,6 +204,9 @@ button:hover {
 	p, li, button {
 		font-size: 40px;
 	}
+	a {
+		font-size: 30px;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
@@ -206,7 +215,7 @@ button:hover {
 	}
 	nav a, i {
 		font-size: 20px;
-		line-height: 155%;
+		line-height: 155% !important;
 	}
 	#content-top {
 		margin-top: 5vh;
@@ -224,6 +233,9 @@ button:hover {
 	}
 	button {
 		font-size: 15px;
+	}
+	a {
+		font-size: 20px;
 	}
 }
 
@@ -234,7 +246,7 @@ button:hover {
 	}
 	nav a, i {
 		font-size: 20px;
-		line-height: 155%;
+		line-height: 155% !important;
 	}
 	#content-top {
 		margin-top: 5vh;
@@ -253,6 +265,9 @@ button:hover {
 
 	button {
 		font-size: 15px;
+	}
+	a {
+		font-size: 20px;
 	}
 
 }
@@ -270,4 +285,5 @@ button:hover {
 i {
 	float: right;
 	line-height: 155% !important;
+	margin-right: 10px;
 }
