@@ -68,7 +68,7 @@ function applyThemeOnLoad(){
 			document.getElementsByClassName("root-nav-link")[j].style.color = "rgb(0,0,0)";
 		}
 		document.getElementById("theme-switch").style.color = "rgb(0,0,0)";
-		document.getElementsByClassName("active")[0].style.backgroundColor = "rgb(100,100,100)";
+		document.getElementsByClassName("active")[0].style.backgroundColor = "rgb(150,150,150)";
 	}
 
 	else if (theme == "dark") {
@@ -79,9 +79,9 @@ function applyThemeOnLoad(){
 		for (let i = 0; i < len; i++){
 			document.getElementsByClassName("root-nav-link")[i].style.backgroundColor = "rgb(50,50,50)";
 			document.getElementsByClassName("root-nav-link")[i].style.color = "rgb(255,255,255)";
-			document.getElementsByClassName("active")[0].style.backgroundColor = "rgb(100,100,100)";
 		}
 		document.getElementById("theme-switch").style.color = "rgb(255,255,255)";
+		document.getElementsByClassName("active")[0].style.backgroundColor = "rgb(100,100,100)";
 	}
 
 	else {
@@ -105,7 +105,7 @@ function switchTheme(){
 			document.getElementsByClassName("root-nav-link")[i].style.color = "rgb(255,255,255)";
 		}
 		document.getElementById("theme-switch").style.color = "rgb(255,255,255)";
-		document.getElementsByClassName("active")[0].style.backgroundColor = "rgb(100,100,100)";
+		document.getElementsByClassName("active")[0].style.backgroundColor = "rgb(150,150,150)";
 	}
 	else if (theme == "dark") {
 		setCookie("LSEtheme", "light", 30);

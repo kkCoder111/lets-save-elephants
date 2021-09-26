@@ -90,7 +90,7 @@ img {
 }
 
 .active {
-	background-color: rgb(100,100,100);
+	background-color: rgb(150,150,150);
 }
 
 nav p {
@@ -128,7 +128,7 @@ button:hover {
  	nav, #nav-placeholder {
 		height: 75px;
 	}
-	nav a {
+	nav a, i {
 		font-size: 30px;
 		line-height: 250%;
 	}
@@ -154,7 +154,7 @@ button:hover {
 	nav, #nav-placeholder {
 		height: 75px;
 	}
-	nav a {
+	nav a, i {
 		font-size: 30px;
 		line-height: 250%;
 	}
@@ -170,7 +170,7 @@ button:hover {
 		font-size: 60px;
 	}
 
-	p, li, button {
+	p, li, button{
 		font-size: 40px;
 	}
 }
@@ -180,7 +180,7 @@ button:hover {
 	nav, #nav-placeholder {
 		height: 75px;
 	}
-	nav a {
+	nav a, i {
 		font-size: 40px;
 		line-height: 250%;
 	}
@@ -204,7 +204,7 @@ button:hover {
 	nav, #nav-placeholder {
 		height: 30px;
 	}
-	nav a {
+	nav a, i {
 		font-size: 20px;
 		line-height: 155%;
 	}
@@ -232,7 +232,7 @@ button:hover {
 	nav, #nav-placeholder {
 		height: 30px;
 	}
-	nav a {
+	nav a, i {
 		font-size: 20px;
 		line-height: 155%;
 	}
@@ -269,6 +269,5 @@ button:hover {
 
 i {
 	float: right;
-	font-size: 20px;
 	line-height: 155% !important;
 }
