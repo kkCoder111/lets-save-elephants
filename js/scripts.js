@@ -62,7 +62,7 @@ function applyThemeOnLoad(){
 		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
 		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
 		len = document.getElementsByClassName("root-nav-link").length;
-		for (let i = 0, i < len, i++){
+		for (let j = 0, j < len, j++){
 			document.getElementsByClassName("root-nav-link")[i].style.backgroundColor = "rgb(205,205,205)";
 			document.getElementsByClassName("root-nav-link")[i].style.color = "rgb(255,255,255)";
 		}
