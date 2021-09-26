@@ -62,7 +62,6 @@ function switchTheme(){
 		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(255,255,255)";
 		document.getElementsByTagName("body")[0].style.color = "rgb(0,0,0)";
 		document.getElementById("nav").style.backgroundColor = "rgb(50,50,50)";
-		document.getElementsByClassName("nav").style.backgroundColor = "rgb(50,50,50)";
 		document.getElementsByClassName("nav-link").style.color = "rgb(255,255,255)";
 		document.getElementById("theme-switch").style.color = "rgb(255,255,255)";
 	}
@@ -71,7 +70,6 @@ function switchTheme(){
 		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(0,0,0)";
 		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
 		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
-		document.getElementsByClassName("nav").style.backgroundColor = "rgb(205,205,205)";
 		document.getElementsByClassName("nav-link").style.color = "rgb(255,255,255)";
 		document.getElementById("theme-switch").style.color = "rgb(0,0,0)";
 	}
