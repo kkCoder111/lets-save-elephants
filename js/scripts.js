@@ -92,6 +92,7 @@ function switchTheme(){
 	let theme = getCookie("LSEtheme");
 	let len = 0;
 	console.log("Switched to " + theme + " theme.");
+	len = document.getElementsByClassName("root-nav-link").length;
 	if (theme == "light") {
 		setCookie("LSEtheme", "dark", 30);
 		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(0,0,0)";
