@@ -59,8 +59,8 @@ function applyThemeOnLoad(){
 	console.log("OnLoad Theme: " + theme)
 	len = document.getElementsByClassName("root-nav-link").length;
 	if (theme == "light") {
-		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(0,0,0)";
-		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
+		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(255,255,255)";
+		document.getElementsByTagName("body")[0].style.color = "rgb(0,0,0)";
 		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
 		len = document.getElementsByClassName("root-nav-link").length;
 		for (let j = 0; j < len; j++){
@@ -71,8 +71,8 @@ function applyThemeOnLoad(){
 	}
 
 	else if (theme == "dark") {
-		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(255,255,255)";
-		document.getElementsByTagName("body")[0].style.color = "rgb(0,0,0)";
+		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(0,0,0)";
+		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
 		document.getElementById("nav").style.backgroundColor = "rgb(50,50,50)";
 		len = document.getElementsByClassName("root-nav-link").length;
 		for (let i = 0; i < len; i++){
