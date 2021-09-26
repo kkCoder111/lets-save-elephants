@@ -62,7 +62,7 @@ function applyThemeOnLoad(){
 		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
 		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
 		len = document.getElementsByClassName("root-nav-link").length;
-		for (let j = 0, j < len, j++){
+		for (let j = 0; j < len; j++){
 			document.getElementsByClassName("root-nav-link")[j].style.backgroundColor = "rgb(205,205,205)";
 			document.getElementsByClassName("root-nav-link")[j].style.color = "rgb(255,255,255)";
 		}
@@ -74,7 +74,7 @@ function applyThemeOnLoad(){
 		document.getElementsByTagName("body")[0].style.color = "rgb(0,0,0)";
 		document.getElementById("nav").style.backgroundColor = "rgb(50,50,50)";
 		len = document.getElementsByClassName("root-nav-link").length;
-		for (let i = 0, i < len, i++){
+		for (let i = 0; i < len; i++){
 			document.getElementsByClassName("root-nav-link")[i].style.backgroundColor = "rgb(50,50,50)";
 			document.getElementsByClassName("root-nav-link")[i].style.color = "rgb(255,255,255)";
 		}
@@ -95,7 +95,7 @@ function switchTheme(){
 		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(0,0,0)";
 		document.getElementsByTagName("body")[0].style.color = "rgb(255,255,255)";
 		document.getElementById("nav").style.backgroundColor = "rgb(50,50,50)";
-		for (let i = 0, i < len, i++){
+		for (let i = 0; i < len; i++){
 			document.getElementsByClassName("root-nav-link")[i].style.backgroundColor = "rgb(50,50,50)";
 			document.getElementsByClassName("root-nav-link")[i].style.color = "rgb(255,255,255)";
 		}
@@ -106,7 +106,7 @@ function switchTheme(){
 		document.getElementsByTagName("body")[0].style.backgroundColor = "rgb(255,255,255)";
 		document.getElementsByTagName("body")[0].style.color = "rgb(0,0,0)";
 		document.getElementById("nav").style.backgroundColor = "rgb(205,205,205)";
-		for (let i = 0, i < len, i++){
+		for (let i = 0; i < len; i++){
 			document.getElementsByClassName("root-nav-link")[i].style.backgroundColor = "rgb(205,205,205)";
 			document.getElementsByClassName("root-nav-link")[i].style.color = "rgb(255,255,255)";
 		}
