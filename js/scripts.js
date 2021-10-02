@@ -11,10 +11,7 @@ var facts = [
 
 function random(){
 	let display = document.getElementById("fact");
-	console.log(display);
 	let result = Math.floor(Math.random() * 5) + 1;
-
-	console.log(result);
 	display.innerHTML = facts[result];
 }
 

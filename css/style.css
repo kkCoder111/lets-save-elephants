@@ -50,7 +50,7 @@ nav {
 	left: 0px;
 	right: 0px;
 	background-color: rgb(205,205,205);
-	color: rgb(255,255,255);
+	color: rgb(0,0,0);
 	margin-left: 0px;
 	margin-right: 0px;
 	min-height: 30px;
@@ -82,7 +82,7 @@ img {
 	right: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgb(0,0,255);
+	background-color: rgb(205,205,205);
 }
 
 #first {
@@ -126,10 +126,10 @@ button:hover {
 /** Mobile Devices */
  @media screen and (max-width: 480px) {
  	nav, #nav-placeholder {
-		height: 75px;
+		height: 85px;
 	}
 	nav a, i {
-		font-size: 30px;
+		font-size: 40px;
 		line-height: 250% !important;
 	}
 	#content-top {
@@ -148,17 +148,17 @@ button:hover {
 		font-size: 40px;
 	}
 	a {
-		font-size: 30px;
+		font-size: 40px;
 	}
 }
 
 /*Low resolution  Tablets, Ipads */
 @media screen and (min-width: 481px) and (max-width: 767px) {
 	nav, #nav-placeholder {
-		height: 75px;
+		height: 85px;
 	}
 	nav a, i {
-		font-size: 30px;
+		font-size: 40px;
 		line-height: 250% !important;
 	}
 
@@ -177,17 +177,17 @@ button:hover {
 		font-size: 40px;
 	}
 	a {
-		font-size: 30px;
+		font-size: 40px;
 	}
 }
 
 /* Tablets Ipads portrait mode */
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
 	nav, #nav-placeholder {
-		height: 75px;
+		height: 85px;
 	}
 	nav a, i {
-		font-size: 30px;
+		font-size: 40px;
 		line-height: 250% !important;
 	}
 	#content-top {
@@ -205,7 +205,7 @@ button:hover {
 		font-size: 40px;
 	}
 	a {
-		font-size: 30px;
+		font-size: 40px;
 	}
 }
 
