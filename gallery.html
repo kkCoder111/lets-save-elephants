@@ -15,10 +15,10 @@
 <body onload="checkCookie('LSEtheme', 'light', 30); applyThemeOnLoad();">
 	<header>
 		<nav id="nav">
-			<p><a href="index.html" class="root-nav-link">Home</a></p>
-			<p><a href="howtohelp.html" class="root-nav-link">How to help</a></p>
-			<p><a href="gallery.html" class="active root-nav-link">Gallery</a></p>
-			<i class="fas fa-adjust" onclick="switchTheme();" id="theme-switch"></i>
+			<p><a href="index.html" class="root-nav-link" tabindex="1">Home</a></p>
+			<p><a href="howtohelp.html" class="root-nav-link" tabindex="2">How to help</a></p>
+			<p><a href="gallery.html" class="active root-nav-link" tabindex="3">Gallery</a></p>
+			<i class="fas fa-adjust" onclick="switchTheme();" id="theme-switch" tabindex="4"></i>
 		</nav>
 		<div id="top"></div>
 	</header>
@@ -30,14 +30,14 @@
 		</section>
 		<div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
 		  <div class="carousel-indicators">
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Image 1"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Image 2"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Image 3"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-current="true" aria-label="Image 4"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Image 5"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Image 6"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Image 7"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Image 8"></button>
+		    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Image 1" tabindex="6"></button>
+		    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Image 2" tabindex="7"></button>
+		    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Image 3" tabindex="8"></button>
+		    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-current="true" aria-label="Image 4" tabindex="9"></button>
+		    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" aria-label="Image 5" tabindex="10"></button>
+		    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="5" aria-label="Image 6" tabindex="11"></button>
+		    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="6" aria-label="Image 7" tabindex="12"></button>
+		    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="7" aria-label="Image 8" tabindex="13"></button>
 		  </div>
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
@@ -65,11 +65,11 @@
 		    	<a href="https://live.staticflickr.com/15/19407987_19b7a6d083_b.jpg" data-lightbox="gallery-set" data-title="&ldquo;Muddy Elephant&rdquo; by justin is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/"><img src="https://live.staticflickr.com/15/19407987_19b7a6d083_b.jpg" alt="Wild elephant" class="d-block w-100"></a>
 		    </div>
 		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev" tabindex="5">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="visually-hidden">Previous</span>
 		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next"  tabindex="14">
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="visually-hidden">Next</span>
 		  </button>

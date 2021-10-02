@@ -289,13 +289,7 @@ button:hover {
 
 }
 
-
-
 #skip {
-	display: none;
-}
-
-#skip:focus {
 	display: inline;
 }
 

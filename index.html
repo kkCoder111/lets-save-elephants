@@ -12,10 +12,14 @@
 <body onload="checkCookie('LSEtheme', 'light', 30); applyThemeOnLoad();">
 	<header>
 		<nav id="nav">
-			<p><a href="index.html" class="active root-nav-link">Home</a></p>
-			<p><a href="howtohelp.html" class="root-nav-link">How to help</a></p>
-			<p><a href="gallery.html" class="root-nav-link">Gallery</a></p>
-			<i class="fas fa-adjust" onclick="switchTheme();" id="theme-switch"></i>
+			<p><a href="index.html" class="active root-nav-link" tabindex="1">Home</a></p>
+			<p><a href="howtohelp.html" class="root-nav-link" tabindex="2">How to help</a></p>
+			<p><a href="gallery.html" class="root-nav-link" tabindex="3">Gallery</a></p>
+			<i class="fas fa-adjust" onclick="switchTheme();" onkeypress="
+			if (event.keyCode === 13){
+				switchTheme();
+			}
+			" id="theme-switch" tabindex="4"></i>
 		</nav>
 		<div id="top"></div>
 	</header>
@@ -53,14 +57,14 @@
 			<p>African bush elephants and Asian elephants are listed as endangered, whereas African forest elephants are listed as critically endangered.</p>
 		</section>
 		<br>
-		<button onclick="random();">Tell me a fact about elephants</button>
-		<p id="fact"></p>
-		<a href="#top">Back to top</a>
+		<button onclick="random();" tabindex="5">Tell me a fact about elephants</button>
+		<p id="fact" tabindex="6"></p>
+		<a href="#top" tabindex="7">Back to top</a>
 	</main>
 	<footer>
 		<h2>Sources:</h2>
-		<a href="https://en.wikipedia.org/wiki/Elephant" target="_blank">Wikipedia</a>
-		<a href="https://www.wwf.org.uk/learn/fascinating-facts/elephants">WWF (facts)</a>
+		<a href="https://en.wikipedia.org/wiki/Elephant" target="_blank" tabindex="8">Wikipedia</a>
+		<a href="https://www.wwf.org.uk/learn/fascinating-facts/elephants" tabindex="9">WWF (facts)</a>
 	</footer>
 </body>
 </html>
