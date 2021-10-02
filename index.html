@@ -12,13 +12,12 @@
 <body onload="checkCookie('LSEtheme', 'light', 30); applyThemeOnLoad();">
 	<header>
 		<nav id="nav">
-			<p><a href="#first" id="skip">Skip to main content</a></p>
 			<p><a href="index.html" class="active root-nav-link">Home</a></p>
 			<p><a href="howtohelp.html" class="root-nav-link">How to help</a></p>
 			<p><a href="gallery.html" class="root-nav-link">Gallery</a></p>
 			<i class="fas fa-adjust" onclick="switchTheme();" id="theme-switch"></i>
 		</nav>
-		<div id="nav-placeholder"></div>
+		<div id="top"></div>
 	</header>
 	<br>
 	<main>
@@ -56,7 +55,7 @@
 		<br>
 		<button onclick="random();">Tell me a fact about elephants</button>
 		<p id="fact"></p>
-		<a href="nav">Back to top</a>
+		<a href="#top">Back to top</a>
 	</main>
 	<footer>
 		<h2>Sources:</h2>

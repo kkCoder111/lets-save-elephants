@@ -1,6 +1,7 @@
 body {
 	font-family: arial !important;
 	margin-left: 10px;
+	margin-right: 10px;
 }
 
 a {
@@ -97,7 +98,7 @@ nav p {
 	display: inline;
 }
 
-#carouselExampleIndicators {
+#carouselIndicators {
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -130,7 +131,7 @@ button:hover {
 	}
 	nav a, i {
 		font-size: 40px;
-		line-height: 250% !important;
+		line-height: 225% !important;
 	}
 	#content-top {
 		margin-top: 20vh;
@@ -150,6 +151,9 @@ button:hover {
 	a {
 		font-size: 40px;
 	}
+	#carouselIndicators {
+		width: 100%;
+	}
 }
 
 /*Low resolution  Tablets, Ipads */
@@ -159,7 +163,7 @@ button:hover {
 	}
 	nav a, i {
 		font-size: 40px;
-		line-height: 250% !important;
+		line-height: 225% !important;
 	}
 
 	#content-top {
@@ -179,6 +183,9 @@ button:hover {
 	a {
 		font-size: 40px;
 	}
+	#carouselIndicators {
+		width: 100%;
+	}
 }
 
 /* Tablets Ipads portrait mode */
@@ -188,7 +195,7 @@ button:hover {
 	}
 	nav a, i {
 		font-size: 40px;
-		line-height: 250% !important;
+		line-height: 225% !important;
 	}
 	#content-top {
 		margin-top: 5vh;
@@ -206,6 +213,9 @@ button:hover {
 	}
 	a {
 		font-size: 40px;
+	}
+	#carouselIndicators {
+		width: 100%;
 	}
 }
 
@@ -236,6 +246,10 @@ button:hover {
 	}
 	a {
 		font-size: 20px;
+	}
+	#carouselIndicators {
+		left: 0px;
+		width: 50%;
 	}
 }
 
@@ -268,6 +282,9 @@ button:hover {
 	}
 	a {
 		font-size: 20px;
+	}
+	#carouselIndicators {
+		width: 50%;
 	}
 
 }
